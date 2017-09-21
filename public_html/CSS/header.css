@@ -1,0 +1,107 @@
+body{
+    margin:0;
+}
+
+.large-header {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 3;
+}
+
+.day-time {
+	position: absolute;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.day-time {
+	background-image: url('../images/forestDay.jpg');
+	background-position: center bottom;
+}
+
+.night-time {
+	position: absolute;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 2;
+}
+
+.night-time {
+	background-image: url('../images/forestNight.jpg');
+	background-position: center bottom;
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 40%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+
+.main-title {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    color: whitesmoke;
+    text-transform: uppercase; 
+    letter-spacing: 0.09em;
+    margin-bottom: 20px;
+    clear: both;
+    padding-top: 70px;
+}
+
+span{
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border:white solid 10px;
+}
+
+.kicker {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 55%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.kicker{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: whitesmoke;
+    line-height: 1;
+}
+
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+	
+	.demo-2 .main-title {
+		font-size: 4em;
+	}
+}
