@@ -94,6 +94,27 @@ span{
     line-height: 1;
 }
 
+.title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 5%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: whitesmoke;
+    line-height: 1;
+}
 
 .main-title .thin {
 	font-weight: 200;
