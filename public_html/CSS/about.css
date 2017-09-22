@@ -1,0 +1,72 @@
+.face-container{
+    max-width:780px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center ;
+    justify-content: center;
+    padding-top: 300px;
+}
+
+.JHC-container{
+    max-width:780px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center ;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+
+.icon-java{
+    background-image: url("../images/java.svg");
+}
+.face-photo{
+    background-image: url("../images/face.jpg");
+    margin-right: 2em;
+    margin-left: 2em;
+    border-radius: 50%;
+    width:250px;
+    height:250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon-android{
+    background-image: url("../images/android.svg");
+}
+
+.icon-html{
+    background-image: url("../images/html5.svg");
+    position: relative;
+    top: -4.5em;
+
+}
+
+.icon-javascript{
+    background-image: url("../images/javascript.png");
+    margin-right: 4em;
+    margin-left: 4em;
+
+
+}
+
+
+.icon-css{
+    background-image: url("../images/css.svg");
+    position: relative;
+    top: -4.5em;
+}
+
+[class^="icon-"]{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:91px;
+    height:91px;
+}
+
+[class^="icon-"]:hover{
+    opacity:0.9;
+}
+
+
+

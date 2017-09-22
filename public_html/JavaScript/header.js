@@ -1,3 +1,6 @@
+//credits to Rachel Smith for partical effects 
+//https://tympanus.net/codrops/2014/09/23/animated-background-headers/
+
 (function () {
 
     var width, height, largeHeader, dayTime, nightTime, canvas, ctx, circles,
@@ -46,7 +49,6 @@
         
         scrolltop = document.body.scrollTop;
         dayTime.style.opacity = (1 + scrolltop/700-1);
-      //  document.getElementById("kicker").innerHTML = (1 + (scrolltop/1000)-1 );
         if (document.body.scrollTop > height)
             animateHeader = false;
         else
@@ -106,15 +108,3 @@
     }
 
 })();
-
-
-
-
-
-/*var header = $("#header");
- 
- $(window).on("scroll", function() {
- var scrolltop = $(this).scrollTop();
- header.css({"opacity": (1 - scrolltop/880)});
- // $('#pTest').text(scrolltop);
- });*/
