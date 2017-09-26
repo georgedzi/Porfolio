@@ -1,6 +1,5 @@
 .about-section{
     background-image: url("../images/morning-grass-hd-wallpaper.jpg");
-
     overflow: hidden;
     background-size: cover;
     background-position: center center;
@@ -88,21 +87,21 @@ h3{
     height:91px;
 }
 
-[class^="icon-"]:hover{
-    opacity:0.5;
-}
 
 .about-me-box{
     max-width: 620px;
     padding: 0 15px;
     margin: 50px auto;
-    background-color:black;
-    opacity:0.65;
+    background-color:white;
+    opacity:0.5;
+    border-radius: 25px;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    
 }
 .about-me{
-    color:white;
+    color:black;
     font-weight: bold;
-   
     font-size: 18px;
     text-align: center;
     text-transform: uppercase;

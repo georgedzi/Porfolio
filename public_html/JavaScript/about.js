@@ -8,6 +8,7 @@
     addListeners();
 
     function initAbout() {
+              
         javaIcon = document.getElementById('icon-java');
         androidIcon = document.getElementById('icon-android');
         htmlIcon = document.getElementById('icon-html');
@@ -29,6 +30,7 @@
 
         cssIcon.style.top = 3.5 + "em";
         cssIcon.style.opacity = 0;
+        
 
         scrollComplete = false;
     }
